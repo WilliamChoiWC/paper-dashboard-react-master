@@ -222,6 +222,10 @@
     }
 }
 
+@mixin bgcolor ($color){
+     background-color: $color; 
+}
+
 @mixin badge-color($color) {
     border-color: $color;
     background-color: $color;

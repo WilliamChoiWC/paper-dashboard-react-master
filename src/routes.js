@@ -19,6 +19,7 @@
 import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Notifications.js";
 import Icons from "views/Icons.js";
+import Input from "views/input.js";
 import Typography from "views/Typography.js";
 import TableList from "views/Tables.js";
 import Maps from "views/Map.js";
@@ -31,6 +32,13 @@ var routes = [
     name: "Dashboard",
     icon: "nc-icon nc-bank",
     component: Dashboard,
+    layout: "/admin",
+  },
+  {
+    path: "/input",
+    name: "input",
+    icon: "nc-icon nc-app",
+    component: Input,
     layout: "/admin",
   },
   {

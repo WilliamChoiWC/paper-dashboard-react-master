@@ -72,7 +72,8 @@ class Dashboard extends React.Component {
           bgColor={this.state.backgroundColor}
           activeColor={this.state.activeColor}
         />
-        <div className="main-panel" ref={this.mainPanel}>
+        <div className="main-panel" ref={this.mainPanel} bgcolor={this.state.backgroundColor}
+          activecolor={this.state.activeColor}>
           <DemoNavbar {...this.props} />
           <Switch>
             {routes.map((prop, key) => {

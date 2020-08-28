@@ -222,7 +222,7 @@
       border-bottom: 1px solid #ddd;
 
       a:not(.dropdown-item):not(.btn){
-        color: $default-color;
+        color: $warning-color;
 
         &.disabled{
           opacity: .5;
