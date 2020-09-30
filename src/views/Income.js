@@ -21,10 +21,8 @@ class input extends React.Component{
               <Row>
                 <Col md="12">
                   <Card>
-                    <CardHeader>This Month Income</CardHeader>
+                    <CardHeader tag="h5">This Month Income</CardHeader>
                     <CardBody>
-                      //TODO This month income table
-
                       <Table responsive>
                         <thead className="text-primary">
                           <tr>
@@ -86,7 +84,7 @@ class input extends React.Component{
               <Row>
                 <Col md="12">
                   <Card>
-                    <CardHeader>Income</CardHeader>
+                    <CardHeader tag="h5">Income</CardHeader>
                     <CardBody>
                           <Input id="income" type="text"/>
                           <Button className="btn-round" color="warning" type="submit">Add</Button>

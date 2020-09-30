@@ -36,6 +36,20 @@ var routes = [
     layout: "/admin",
   },
   {
+    path: "/incomedashboard",
+    name: "Income Dashboard",
+    icon: "nc-icon nc-bank",
+    component: Dashboard,
+    layout: "/admin",
+  },
+  {
+    path: "/expensedashboard",
+    name: "Expense Dashboard",
+    icon: "nc-icon nc-bank",
+    component: Dashboard,
+    layout: "/admin",
+  },
+  {
     path: "/expense",
     name: "Expense",
     icon: "nc-icon nc-app",
