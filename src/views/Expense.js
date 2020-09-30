@@ -12,7 +12,7 @@ import {
     Row,
     Col,} from "reactstrap";
 
-class input extends React.Component{
+class expense extends React.Component{
     render() {
         return (
           <>
@@ -20,10 +20,9 @@ class input extends React.Component{
               <Row>
                 <Col md="12">
                   <Card>
-                    <CardHeader>Income</CardHeader>
+                    <CardHeader>Today Expense</CardHeader>
                     <CardBody>
-                          <Input id="income" type="text"/>
-                          <Button className="btn-round" color="primary" type="submit">Add</Button>
+                        //TODO Today Expense table 
                     </CardBody>
                   </Card>
                 </Col>
@@ -34,7 +33,7 @@ class input extends React.Component{
                     <CardHeader>Expense</CardHeader>
                     <CardBody>
                           <Input id="expense" type="text"/>
-                          <Button className="btn-round" color="primary" type="submit">Add</Button>
+                          <Button className="btn-round" color="warning" type="submit">Add</Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -45,4 +44,4 @@ class input extends React.Component{
     }
 }
 
-export default input;
+export default expense;

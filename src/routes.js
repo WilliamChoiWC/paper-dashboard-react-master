@@ -19,7 +19,8 @@
 import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Notifications.js";
 import Icons from "views/Icons.js";
-import Input from "views/input.js";
+import Income from "views/Income.js";
+import Expense from "views/Expense.js"
 import Typography from "views/Typography.js";
 import TableList from "views/Tables.js";
 import Maps from "views/Map.js";
@@ -35,10 +36,17 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/input",
-    name: "input",
+    path: "/expense",
+    name: "Expense",
     icon: "nc-icon nc-app",
-    component: Input,
+    component: Expense,
+    layout: "/admin",
+  },
+  {
+    path: "/income",
+    name: "income",
+    icon: "nc-icon nc-app",
+    component: Income,
     layout: "/admin",
   },
   {

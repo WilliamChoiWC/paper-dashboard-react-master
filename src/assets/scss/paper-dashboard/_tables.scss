@@ -1,4 +1,5 @@
 .table{
+    color: #FFF;
 
     .img-wrapper{
       width: 40px;
@@ -46,7 +47,7 @@
     }
 
    > thead > tr > th{
-       font-size: 14px;
+       font-size: 16px;
        font-weight: $font-weight-bold;
        padding-bottom: 0;
        text-transform: uppercase;
@@ -160,7 +161,7 @@
 }
 
 .table-responsive{
-  overflow: scroll;
+  //overflow: scroll;
   padding-bottom: 10px;
 }
 
